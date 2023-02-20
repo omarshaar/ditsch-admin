@@ -1,0 +1,43 @@
+.InfoCard{
+    width: 100%;
+    height: 165px;
+}
+
+
+
+.TitleInfoCard{
+    width: 100%;
+}
+
+.infclin{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.inforCardIConContainer{
+    height: 44px;
+    width: 44px;
+    background-color: #a2271caa;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.inforCardICon{
+    stroke: #fff;
+    height: 50%;
+    width: 50%;
+}
+
+.updownIcon{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+#apexcharts-radialbarTrack-0{
+    stroke: var(--borderColor);
+    opacity: 0.5;
+}

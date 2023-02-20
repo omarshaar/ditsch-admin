@@ -1,0 +1,10 @@
+.PageMainContainer {
+    width: 100%;
+    height: calc(100vh - var(--header) - 10px);
+    background-color: #fff;
+}
+
+.pageframe {
+    width: 100%;
+    height: 100%;
+}

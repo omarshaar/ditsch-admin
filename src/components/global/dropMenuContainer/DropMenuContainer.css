@@ -1,0 +1,22 @@
+.DropMenuContainer{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50% , 30px);
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    box-shadow: var(--Lgray) 0 0 5px;
+    background-color: var(--white);
+    opacity: 0;
+    display: none;
+    transition: 0.3s;
+    z-index: 9999 !important;
+    padding: var(--padding);
+}
+
+.DropMenuContainerActive{
+    opacity: 1;
+    transform: translate(-50% , 0px);
+    z-index: 9999 !important;
+}

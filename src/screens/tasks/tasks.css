@@ -1,0 +1,380 @@
+.TasksScreen{
+    width: 100%;
+    height: calc(100vh - 180px);
+    max-height: calc(100vh - 170px);
+    margin-top: var(--padding);
+    grid-template-columns: max-content 1fr;
+    gap: 10px;
+    overflow-y: hidden;
+    position: relative;
+    padding-right: 3px;
+}
+
+.TasksBody{
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+  
+
+.TasksBodyHead{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 25px;
+}
+
+.tasksHeaderAction{
+    height: 35px;
+    min-width: 50px;
+    padding: 0 15px;
+    background-color: var(--primary);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tasksHeaderActionActive{
+    opacity: 1;
+}
+
+.tasksHeaderAction p{
+    color: var(--white);
+}
+
+.tasksHeaderActionsContainer :first-child{
+    border-radius: 3px 0 0 3px;
+}
+.tasksHeaderActionsContainer :last-child{
+    border-radius: 0 3px 3px 0;
+}
+
+.tasksContainer{
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow: auto;
+    overflow-x: hidden;
+    padding-right: 5px;
+    padding-top: 4px;
+}
+.tasksContainer {
+    /* Foreground, Background */
+    scrollbar-color: var(--primary) var(--Lgray);
+}
+.tasksContainer::-webkit-scrollbar {
+    width: 5px; /* Mostly for vertical scrollbars */
+    height: 5px; /* Mostly for horizontal scrollbars */
+}
+.tasksContainer::-webkit-scrollbar-thumb { /* Foreground */
+    background: var(--primary);
+}
+.tasksContainer::-webkit-scrollbar-track { /* Background */
+    background: var(--Lgray);
+}
+
+
+
+
+
+
+
+
+.TaskContainer{
+    width: 100%;
+    height: 65px;
+    background-color: var(--bgSecondary);
+    box-shadow: var(--Lgray) 0 0 2px;
+    border: 1px var(--Lgray) solid;
+    border-radius: 3px;
+    overflow: hidden;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 0;
+}
+
+.TaskElementHead{
+    width: 100%;
+    height: 65px;
+}
+
+.tasksma{
+    width: 10px;
+    height: 100%;
+    margin-right: 20px;
+    opacity: 0.9;
+    border-radius: 3px 0 0 3px;
+}
+
+.taskIcon{
+    height: 16px;
+    width: 16px;
+    stroke: var(--black);
+}
+.taskIconBack{
+
+    stroke: var(--black);
+    stroke-width: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.form-check-input{
+    margin: 0 !important;
+    margin-left: 10px !important;
+}
+
+.z8ppp{
+    margin-left: 10px !important;
+    cursor: pointer;
+}
+
+.taskActionIcon{
+    height: 28px;
+    width: 28px;
+    stroke: var(--black);
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.taskActionIcon:hover{
+    stroke: var(--primary);
+}
+
+
+
+.paddingLeer{
+    height: 20px;
+    width: 100%;
+}
+
+.moveIcon{
+    cursor: grab;
+}
+
+.taskMoving{
+    transform: translateX(104%);
+}
+
+.taskMoving2{
+    transition: 0.3s !important;
+    height: 0px !important;
+    margin: 0 !important;
+}
+
+
+.openedTask{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white) !important;
+    z-index: 90;
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+}
+
+.TaskElementHeadAn{
+    border-bottom: 1px var(--Lgray) solid;
+    padding: 0 24px;
+    height: 70px;
+}
+
+.taskSearchBox{
+    height: 35px;
+    width: max-content;
+    box-shadow: var(--Lgray) 0 0 5px;
+}
+
+#taskSearchInput{
+    width: 190px;
+    height: 100%;
+    background-color: var(--white);
+    border: none;
+    border-radius: 0 3px 3px 0;
+    padding: 5px;
+    padding-left: 10px;
+    color: var(--black);
+    font-family: var(--mainFont);
+    font-size: 13px;
+    outline: none;
+}
+
+.TaskSearchButton{
+    width: 40px;
+    height: 100%;
+    border: none;
+    background-color: var(--primary);
+    border-radius: 3px 0 0 3px;
+    outline: none;
+}
+
+.taskSearchIcon{
+    stroke: var(--white);
+    height: 16px;
+    width: 16px;
+}
+
+.spinner-border{
+    border-color: var(--black) !important;
+    border-right-color: transparent !important;
+}
+
+.TasktagActive{
+    outline: 1px var(--gray) solid;
+}
+
+.NoTasksIcon{
+    width: 17%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* menu */
+.tasksMenuBarContainer{
+    width: 230px;
+    height: 100%;
+    max-height: 100%;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.tasksMenuBarContainer::-webkit-scrollbar {
+    display: none;
+}
+.circlePlusIcon{
+    height: 18px;
+    width: 18px;
+    stroke: var(--white);
+    margin-right: 8px;
+}
+
+.tasksMenuItem{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    padding-left: 10px;
+    position: relative;
+}
+
+.tasksMenuItem p{
+    color: var(--black);
+}
+
+.tasksMenuItemActive p{
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.IcontasksMenuItem{
+    height: 18px;
+    width: 18px;
+    stroke: var(--black);
+    margin-right: 10px;
+    stroke: var(--black);
+}
+
+.IcontasksMenuItemActive{
+    stroke: var(--primary);
+    stroke-width: 2px;
+}
+
+.tagsContainer{
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+.Tasktag{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+.TasktagBody{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    border-radius: 3px;
+}
+
+.dottIcon{
+    height: 16px;
+    width: 16px;
+}
+
+.tasksMenuBarActionContainer{
+    padding: 0 10px;
+    margin-top: 15px;
+    
+}
+
+.datePickerFi{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    z-index: -1;
+}
+.TasksMenuBarIcon{
+    display: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.tasksMenuBarContainerActive{
+    transform: translateX(0) !important;
+}
+/* End Menu */
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .tasksMenuBarContainer{
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        transition: 0.3s;
+        transform: translateX(-101%);
+    }
+    .TasksScreen{
+        grid-template-columns: 1fr;
+    }
+    .TasksMenuBarIcon{
+        display: block;
+    }
+}

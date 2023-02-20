@@ -1,0 +1,193 @@
+.HomePage{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.gridsec1{
+    grid-template-columns: repeat(2 , 1fr);
+    gap: var(--gap);
+    margin-top: var(--padding);
+}
+
+.HomeChartscontainer{
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: var(--gap);
+}
+
+.apexcharts-legend-text{
+    color: var(--black) !important;
+}
+
+tspan{
+    fill: var(--black) !important;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light {
+    background: var(--white) !important;
+}
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+    background: var(--white) !important;
+}
+.apexcharts-datalabels-group{
+    color: var(--white) !important;
+}
+
+.chartsContainer{
+    width: 100%;
+}
+
+.cardContainerHeader{
+    padding: 20px;
+    padding-top: 0;
+}
+
+
+.listInline{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.listInline :last-child{
+    border: none !important;
+}
+
+.listInlineItem{
+    flex-grow: 1;
+    max-width: 28%;
+    height: 35px;
+    border-right: 1.5px var(--Lgray) solid;
+    color: var(--black);
+}
+
+
+.pInRchart{
+    margin-bottom: 10px;
+
+}
+
+.f2dxs{
+    padding-right: 70px;
+}
+
+
+
+.TableContainer{
+    margin-top: 20px;
+    width: 100%;
+    height: max-content;
+    background-color: var(--white);
+    padding: var(--padding);
+    border-radius: 3px;
+    box-shadow: var(--Lgray) 0 0 5px;
+}
+
+
+.status{
+    position: relative;
+    padding: 5px 13px;
+    border-radius: 3.5px;
+    width: max-content;
+}
+
+.badgeSoftSuccess{
+    color: rgb(45, 185, 134);
+    background-color: rgb(45, 185, 134 , 0.18);
+}
+
+
+.badgeSoftDanger{
+    color: #f46a6a;
+    background-color: rgba(244,106,106,.18);
+}
+
+.badgeSoftWarning{
+    color: #f1b44c;
+    background-color: rgba(241,180,76,.18);
+}
+
+.tfbanft{
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+    .gridsec1{
+        grid-template-columns: repeat(2 , 1fr) !important;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .f2dxs{
+        flex-direction: column !important;
+        padding: 0 0 20px 0;
+    }
+    .fxkhhk{
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .gridsec1{
+        gap: 15px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .gridsec1{
+        grid-template-columns: repeat(1 , 1fr) !important;
+        gap: 10px !important;
+    }
+    .listInlineItem{
+        max-width: 50%;
+    }
+    .cardContainerHeader{
+        padding: 10px;
+        padding-top: 0;
+    }
+}
+

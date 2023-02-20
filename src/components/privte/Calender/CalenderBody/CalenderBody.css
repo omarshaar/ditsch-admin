@@ -1,0 +1,221 @@
+.CalenderBody{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    background-color: var(--white);
+    box-shadow: var(--Lgray) 0 0 2px;
+    border-radius: 2px;
+}
+
+.CalenderHeaderOfBody{
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+}
+
+.nextPrevButtons{
+    width: 70px;
+}
+.nextPrevButton{
+    width: 30px;
+    height: 30px;
+    background-color: var(--LLgray);
+    border: none;
+    border-radius: 3px;
+    box-shadow: var(--Lgray) 0 0 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.CalenderLayoutsBody{
+    width: 100%;
+    height: calc(100% - 60px);
+    padding: 0 20px 20px 20px;
+}
+
+.CalenderMLayout{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.CalenderWLayout{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.CalenderLayoutsHeader{
+    width: 100%;
+    height: 45px;
+    background-color: var(--LBlue);
+    grid-template-columns: repeat(7 , 1fr);
+    border: 1px var(--Lgray) solid;
+    border-bottom: 0;
+}
+
+
+.CalenderLayoutDays div p{
+    color: var(--primary);
+}
+.CalenderLayoutDays div{
+    text-align: center;
+}
+
+.MonthLayout{
+    grid-template-columns: repeat(7 , 1fr);
+    grid-template-rows: repeat(6 , 1fr);
+    height: calc(100% - 47px);
+    border: 0.5px var(--CalenderGrid) solid;
+    border-top: none;
+}
+
+.CalenderBox{
+    border: 0.5px var(--CalenderGrid) solid;
+    width: 100%;
+    height: 100%;
+}
+.CalenderBoxActive{
+    border: 0.5px var(--primary) solid;
+    border-top: 6px var(--primary) solid;
+}
+
+.CalenderBoxDNActive{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    color: var(--black);
+    font-family: var(--mainFont);
+    padding: 10px; 
+}
+
+.CalenderBoxDNInactive{
+    padding: 10px;
+    font-size: 14px;
+    color: var(--black);
+    font-family: var(--mainFont);
+    opacity: 0.1;
+}
+
+
+
+
+
+.WeekLayout{
+    grid-template-columns: repeat(7 , 1fr);
+    grid-template-rows: repeat(24 , 46px);
+    height: max-content;
+    border: 0.5px var(--CalenderGrid) solid;
+    border-top: none;
+
+}
+
+
+.CalenderWLayoutHeader{
+    width: 100%;
+    height: 45px;
+    background-color: var(--LBlue);
+    grid-template-columns: 40px repeat(7 , 1fr);
+    border: 1px var(--Lgray) solid;
+    border-bottom: 0;
+}
+.scrolledLayout{
+    height: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: auto;
+}
+.scrolledLayout::-webkit-scrollbar {
+    display: none;
+}
+.CalenderWeekMainContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.CalenderWeekBox{
+    width: 100%;
+    height: 100% !important;
+    font-size: 14px;
+    color: var(--black);
+    font-family: var(--mainFont);
+    box-sizing: border-box;
+}
+.CalenderWeekBox div{
+    width: 100%;
+    height: 50%;
+}
+.CalenderWeekBox div:first-child{
+    border-bottom: 1px var(--CalenderGrid) dashed;
+}
+.weekH{
+    border-right: 1px var(--CalenderGrid) solid;
+}
+
+.CalenderLayout_H{
+    height: 100%;
+    width: 41px;
+    grid-template-columns: 40px;
+    grid-template-rows: repeat(24 , 46px);
+}
+
+.HoursContainer{
+    width: 100%;
+    height: 46px;
+    max-height: 46px;
+    min-height: 46px;
+    border-bottom: 0.5px var(--CalenderGrid) solid;
+    border-top: 0.5px var(--CalenderGrid) solid;
+    padding-top: 2px;
+}
+
+.wlMN{
+    border: 1px var(--primary) solid;
+    border-radius: 3px 3px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+.CalenderDLayoutsHeader{
+    width: 100%;
+    height: 45px;
+    background-color: var(--LBlue);
+    grid-template-columns: repeat(7 , 1fr);
+    border: 1px var(--CalenderGrid) solid;
+    border-bottom: 0;
+}
+
+.dayLMN{
+    height: 25px;
+    width: 25px;
+    color: var(--primary);
+}
+
+.dayLMNActive{
+    margin-left: 5px;
+    height: 25px;
+    width: 25px;
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+.DayLayout{
+    width: 100%;
+    height: max-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(24 , 46px);
+    padding-bottom: 43px;
+}

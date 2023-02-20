@@ -1,0 +1,8 @@
+.upovetcont{
+    width: 100%;
+    height: max-content;
+    max-width: 290px;
+    background-color: var(--white);
+    border-radius: 3px;
+    padding: 20px;
+}

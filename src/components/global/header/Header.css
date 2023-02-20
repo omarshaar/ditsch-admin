@@ -1,0 +1,82 @@
+.mainHeader{
+    height: var(--header);
+    width: calc(100% - 250px);
+    background-color: var(--white);
+    padding: var(--padding);
+    border-bottom: 1px solid var(--borderColor);
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 300;
+}
+.mainHeaderAus{
+    width: calc(100% - 70px);
+}
+
+.mainHeader nav{ 
+    height: var(--header);
+}
+
+.menuIcon{
+    font-size: 17px;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.profileImageContainer{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px rgb(134, 123, 123) solid;
+    margin-right: 10px;
+
+}
+
+.profileImageContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileContainer{
+    width: 144px;
+    height: 100%;
+    background-color: var(--LBG);
+    padding: 10px;
+    margin: 0 !important;
+    margin-left: 4px !important;
+}
+
+
+.navItem{
+    margin-right: 9px;
+    position: relative;
+    height: 100%;
+}
+
+.gearIcon{
+    font-size: 17px;
+}
+
+.NavIcon{
+    stroke: var(--headerItemColor);  
+    height: 21px;
+    width: max-content;
+    cursor: pointer;
+    padding: 4px;
+    box-sizing: content-box;
+}
+
+.notiCont{
+    position: absolute;
+    top: -6px;
+    right: -4px;
+    width: 19px;
+    height: 15px;
+    background-color: rgb(221, 42, 78);
+    color: #fff;
+    font-size: 11px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+}

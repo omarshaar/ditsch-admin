@@ -1,0 +1,16 @@
+.mainButton{
+    width: 100px;
+    height: 35px;
+    background-color: var(--primary);
+    color: #fff;
+    font-family: var(--titlFont);
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: opacity 0.2s;
+    box-shadow: var(--Lgray) 0 0 5px;
+}
+.mainButton:hover{
+    opacity: 0.9;
+}

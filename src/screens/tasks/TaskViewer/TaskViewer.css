@@ -1,0 +1,21 @@
+.TaskViewerHead{
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.TaskViewerBody{
+    padding-bottom: 24px;
+    border-bottom: 1px var(--Lgray) solid;
+}
+
+.TaskViewerTagsContainer{
+    padding: 24px 0;
+}
+
+.tagIcon{
+    stroke: var(--black);
+}
+
+.tagsP{
+    margin-left: 10px;
+}

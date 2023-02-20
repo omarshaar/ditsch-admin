@@ -1,0 +1,16 @@
+[
+    {
+        "id" : "0" ,
+        "name" : "Freelance" ,
+        "color" : "#05a763" 
+    },{
+        "id" : "1" ,
+        "name" :"Social" ,
+        "color" : "#EA5455" 
+    },
+    {
+        "id" : "2" ,
+        "name" : "Frinds" ,
+        "color" : "#157ca1" 
+    }
+]

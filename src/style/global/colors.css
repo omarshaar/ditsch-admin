@@ -1,0 +1,56 @@
+:root{
+    --primary: #A2271C;
+    --black: #213547;
+    --white: #fff;
+    --Lgray: #ddd;
+    --Lgray2: #eee;
+    --borderColor: #dedee4;
+    --headerItemColor: #555b6d;
+    --LBG: rgb(236, 240, 252);
+    --bg : rgba(231, 233, 243, 0.4);
+    --bgSecondary : rgb(251, 253, 253);
+    --gray: gray;
+    --LLgray: rgb(240, 243, 243);
+    --LBlue: rgb(229, 229, 248);
+    --CalenderGrid : rgb(192, 192, 192);
+    --tableshadow: rgba(0, 0, 0, 0.1);
+}
+
+.darkMood{
+    --primary: #a1473f;
+    --black: #fff;
+    --white: #121118;
+    --Lgray: rgba(0, 0, 1, 0.583);
+    --Lgray2: rgba(56, 6, 6, 0.733);
+    --borderColor: rgba(0, 0, 0, 0.5);
+    --headerItemColor: rgba(255, 255, 255, 0.774);
+    --LBG: #3c1717;
+    --bg : #272529;
+    --bgSecondary : #3c1717;
+    --gray: rgb(143, 143, 143);
+    --LLgray: rgb(179, 179, 179);
+    --LBlue: rgb(86, 55, 55);
+    --CalenderGrid : rgba(192, 192, 192, 0.329);
+    --tableshadow: rgba(130, 130, 130, 0.3);
+} 
+
+.upColor{
+    color: rgb(58, 184, 125) !important;
+    stroke: rgb(58, 184, 125) !important;
+} 
+
+.downColor{
+    color: rgb(240,101,72);
+    stroke: rgb(240,101,72);
+}
+
+.grayColor{
+    color: gray;
+    stroke: gray;
+}
+
+.primaryColor{
+    color: var(--primary);
+    font-size: 16px;
+}
+
